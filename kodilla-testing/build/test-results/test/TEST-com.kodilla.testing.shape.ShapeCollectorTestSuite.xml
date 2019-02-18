@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.shape.ShapeCollectorTestSuite" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-02-17T08:04:23" hostname="DESKTOP-Q70R36E" time="0.002">
+  <properties/>
+  <testcase name="testRemoveShapeNotExisting" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <testcase name="testShowFigures" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.001"/>
+  <testcase name="testRemoveFigure" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testAddFigure" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <testcase name="testGetFigure" classname="com.kodilla.testing.shape.ShapeCollectorTestSuite" time="0.0"/>
+  <system-out><![CDATA[Beginning tests
+Beginning test #1
+Ending test #1
+Beginning test #2
+1. Figure type: circle, Figure area: 19.634954084936208
+2. Figure type: square, Figure area: 46.239999999999995
+3. Figure type: triangle, Figure area: 3.145
+Ending test #2
+Beginning test #3
+Ending test #3
+Beginning test #4
+Ending test #4
+Beginning test #5
+Ending test #5
+All tests are finished
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

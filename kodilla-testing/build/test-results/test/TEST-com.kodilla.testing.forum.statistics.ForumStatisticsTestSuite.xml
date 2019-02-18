@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-02-17T08:04:23" hostname="DESKTOP-Q70R36E" time="0.088">
+  <properties/>
+  <testcase name="testAdvStatsZeroComments" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.081"/>
+  <testcase name="testAdvStatsMorePosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.002"/>
+  <testcase name="testAdvStats1000Posts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testAdvStats100Users" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testAdvStatsMoreComments" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testAdvStatsZeroPosts" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <testcase name="testAdvStatsZeroUsers" classname="com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite" time="0.001"/>
+  <system-out><![CDATA[Beginning of Test#1
+Users number: 3
+Posts number: 1000
+Comments number: 0
+Average number of posts per user: 333.3333333333333
+Average number of comments per user: 0.0
+Average number of comments per post: 0.0
+
+Beginning of Test#2
+Users number: 4
+Posts number: 120
+Comments number: 20
+Average number of posts per user: 30.0
+Average number of comments per user: 5.0
+Average number of comments per post: 0.16666666666666666
+
+Beginning of Test#3
+Users number: 4
+Posts number: 1000
+Comments number: 2000
+Average number of posts per user: 250.0
+Average number of comments per user: 500.0
+Average number of comments per post: 2.0
+
+Beginning of Test#4
+Users number: 100
+Posts number: 35
+Comments number: 420
+Average number of posts per user: 0.35
+Average number of comments per user: 4.2
+Average number of comments per post: 12.0
+
+Beginning of Test#5
+Users number: 5
+Posts number: 87
+Comments number: 451
+Average number of posts per user: 17.4
+Average number of comments per user: 90.2
+Average number of comments per post: 5.183908045977011
+
+Beginning of Test#6
+Users number: 3
+Posts number: 0
+Comments number: 30
+Average number of posts per user: 0.0
+Average number of comments per user: 10.0
+Average number of comments per post: 0.0
+
+Beginning of Test#7
+Users number: 0
+Posts number: 36
+Comments number: 215
+Average number of posts per user: 0.0
+Average number of comments per user: 0.0
+Average number of comments per post: 5.972222222222222
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
