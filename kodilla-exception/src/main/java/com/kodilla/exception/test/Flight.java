@@ -16,4 +16,9 @@ public class Flight {
     public String getArrivalAirport() {
         return arrivalAirport;
     }
+
+    @Override
+    public String toString() {
+        return "flight " + departureAirport + " - " + arrivalAirport;
+    }
 }
