@@ -14,7 +14,8 @@ public class FillBase {
         myFlightBase.addFlight(new Flight(117, "Wrocław", "Szczecin"));
         myFlightBase.addFlight(new Flight(118, "Szczecin", "Kraków"));
         myFlightBase.addFlight(new Flight(119, "Warszawa", "Wrocław"));
-        myFlightBase.addFlight(new Flight(119, "Warszawa", "Szczecin"));
+        myFlightBase.addFlight(new Flight(120, "Warszawa", "Szczecin"));
+        myFlightBase.addFlight(new Flight(133, "Wrocław", "Szczecin"));
 
         return myFlightBase;
     }

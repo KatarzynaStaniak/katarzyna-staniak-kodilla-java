@@ -1,12 +1,9 @@
 package com.kodilla.good.patterns.flights;
 
-import java.time.LocalDateTime;
-
 public class Flight {
     private int flightNumber;
     private String departureCity;
     private String arrivalCity;
-
 
     public Flight(int flightNumber, String departureCity, String arrivalCity) {
         this.flightNumber = flightNumber;
@@ -33,15 +30,13 @@ public class Flight {
 
         Flight flight = (Flight) o;
 
-        if (flightNumber != flight.flightNumber) return false;
         if (!departureCity.equals(flight.departureCity)) return false;
         return arrivalCity.equals(flight.arrivalCity);
     }
 
     @Override
     public int hashCode() {
-        int result = flightNumber;
-        result = 31 * result + departureCity.hashCode();
+        int result = departureCity.hashCode();
         result = 31 * result + arrivalCity.hashCode();
         return result;
     }

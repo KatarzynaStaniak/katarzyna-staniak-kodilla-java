@@ -1,15 +1,15 @@
 package com.kodilla.good.patterns.flights;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ConnectedFlightFinder {
 
     public static FoundFlightsDto findConnectedFlights(String firstCity, String lastCity, FlightsBase allFlights) {
-        List<Flight> firstFlights = new ArrayList<>();
-        List<Flight> secondFlights = new ArrayList<>();
+        Set<Flight> firstFlights = new HashSet<>();
+        Set<Flight> secondFlights = new HashSet<>();
 
-        for (Flight flight : allFlights.getListOfFlights()) {
+        for (Flight flight : allFlights.getSetOfFlights()) {
             if (!(flight.getDepartureCity().equals(firstCity) && flight.getArrivalCity().equals(lastCity))) {
 
                 if (flight.getDepartureCity().equals(firstCity)) {
@@ -22,8 +22,8 @@ public class ConnectedFlightFinder {
             }
         }
 
-        List<Flight> foundFirstFlights = new ArrayList<>();
-        List<Flight> foundSecondFlights = new ArrayList<>();
+        Set<Flight> foundFirstFlights = new HashSet<>();
+        Set<Flight> foundSecondFlights = new HashSet<>();
         for(Flight firstFlight:firstFlights){
             for (Flight secondFlight: secondFlights){
                if( firstFlight.getArrivalCity().equals(secondFlight.getDepartureCity())){

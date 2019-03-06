@@ -1,28 +1,29 @@
 package com.kodilla.good.patterns.flights;
 
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class FlightsBase {
 
-    private ArrayList<Flight> listOfFlights = new ArrayList<>();
+    private Set<Flight> setOfFlights = new HashSet<>();
 
     public boolean addFlight(Flight flight) {
-        return listOfFlights.add(flight);
+        return setOfFlights.add(flight);
     }
 
     public boolean removeFlight(Flight flight) {
-        return listOfFlights.remove(flight);
+        return setOfFlights.remove(flight);
     }
 
 
-    public ArrayList<Flight> getListOfFlights() {
-        return listOfFlights;
+    public Set<Flight> getSetOfFlights() {
+        return setOfFlights;
     }
 
     @Override
     public String toString() {
         return "FlightsBase{" +
-                "listOfFlights=" + listOfFlights +
+                "listOfFlights=" + setOfFlights +
                 '}';
     }
 }

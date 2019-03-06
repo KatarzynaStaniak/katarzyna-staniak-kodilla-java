@@ -1,24 +1,24 @@
 package com.kodilla.good.patterns.flights;
 
-import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class SearchFlights {
 
-    public List<Flight> findFlightFromCity(String city, FlightsBase flightsBase) {
+    public Set<Flight> findFlightFromCity(String city, FlightsBase flightsBase) {
 
-        List<Flight> flightsFromCity = flightsBase.getListOfFlights().stream()
+        Set<Flight> flightsFromCity = flightsBase.getSetOfFlights().stream()
                 .filter(flight -> flight.getDepartureCity().equals(city))
-                .collect(Collectors.toList());
+                .collect(Collectors.toSet());
 
         return flightsFromCity;
     }
 
-    public List<Flight> findFlightToCity(String city, FlightsBase flightsBase) {
+    public Set<Flight> findFlightToCity(String city, FlightsBase flightsBase) {
 
-        List<Flight> flightsToCity = flightsBase.getListOfFlights().stream()
+        Set<Flight> flightsToCity = flightsBase.getSetOfFlights().stream()
                 .filter(flight -> flight.getArrivalCity().equals(city))
-                .collect(Collectors.toList());
+                .collect(Collectors.toSet());
 
         return flightsToCity;
     }
