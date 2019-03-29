@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-29T12:37:29" hostname="DESKTOP-Q70R36E" time="0.002">
+  <properties/>
+  <testcase name="testDefaultSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.002"/>
+  <testcase name="testIndividualSharingStrategy" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.0"/>
+  <system-out><![CDATA[Kate shares posts on: 
+Snapchat
+Paul shares posts on: 
+Twitter
+Frank shares posts on: 
+Facebook
+Ann shares posts on: 
+Snapchat
+NOW Ann shares posts on: 
+Facebook
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

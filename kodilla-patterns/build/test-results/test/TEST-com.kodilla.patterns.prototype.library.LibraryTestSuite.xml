@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-29T12:37:29" hostname="DESKTOP-Q70R36E" time="0.004">
+  <properties/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.004"/>
+  <system-out><![CDATA[Library: My Library
+    Book: title= 'Book 0', author= 'Author 0', publicationDate= 2012-04-05
+    Book: title= 'Book 3', author= 'Author 3', publicationDate= 2012-04-08
+    Book: title= 'Book 4', author= 'Author 4', publicationDate= 2012-04-09
+    Book: title= 'Book 1', author= 'Author 1', publicationDate= 2012-04-06
+    Book: title= 'Book 2', author= 'Author 2', publicationDate= 2012-04-07
+    Book: title= 'Book 123', author= 'Author 151', publicationDate= 2010-11-24
+
+Library: My Library 2
+    Book: title= 'Book 0', author= 'Author 0', publicationDate= 2012-04-05
+    Book: title= 'Book 3', author= 'Author 3', publicationDate= 2012-04-08
+    Book: title= 'Book 4', author= 'Author 4', publicationDate= 2012-04-09
+    Book: title= 'Book 1', author= 'Author 1', publicationDate= 2012-04-06
+    Book: title= 'Book 2', author= 'Author 2', publicationDate= 2012-04-07
+    Book: title= 'Book 123', author= 'Author 151', publicationDate= 2010-11-24
+
+Library: My Library 3
+    Book: title= 'Book 0', author= 'Author 0', publicationDate= 2012-04-05
+    Book: title= 'Book 3', author= 'Author 3', publicationDate= 2012-04-08
+    Book: title= 'Book 4', author= 'Author 4', publicationDate= 2012-04-09
+    Book: title= 'Book 1', author= 'Author 1', publicationDate= 2012-04-06
+    Book: title= 'Book 2', author= 'Author 2', publicationDate= 2012-04-07
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
