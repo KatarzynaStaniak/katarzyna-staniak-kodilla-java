@@ -7,7 +7,7 @@ import java.util.List;
 
 @NamedNativeQuery(
         name = "Company.companiesBeginningWithLetters",
-        query = "SELECT * FROM COMPANIES WHERE lEFT(COMPANY_NAME, 3) = :THREE_FIRST_LETTERS",
+        query = "SELECT * FROM COMPANIES WHERE LEFT(COMPANY_NAME, 3) = :THREE_FIRST_LETTERS",
         resultClass = Company.class
 )
 
