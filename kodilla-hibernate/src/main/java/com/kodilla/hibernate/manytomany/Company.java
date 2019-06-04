@@ -11,6 +11,11 @@ import java.util.List;
         resultClass = Company.class
 )
 
+@NamedQuery(
+        name = "Company.findCompaniesWithLetters",
+        query = "FROM Company WHERE name LIKE :LETTERS"
+        )
+
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
