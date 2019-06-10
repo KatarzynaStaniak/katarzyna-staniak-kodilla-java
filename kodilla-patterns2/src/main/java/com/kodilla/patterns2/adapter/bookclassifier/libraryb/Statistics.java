@@ -28,7 +28,6 @@ public class Statistics implements BookStatistics {
             int p = years.length / 2;
             int median = (int) ((years[p] + years[p - 1]) * 0.5);
             return median;
-//            return years[(int) (years.length / 2 + 0.5)];
         } else {
             return years[years.length / 2];
         }
